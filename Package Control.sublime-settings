@@ -1,0 +1,39 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"ApplySyntax",
+		"BeautifyRuby",
+		"Better RSpec",
+		"BracketHighlighter",
+		"ChangeQuotes",
+		"DocBlockr",
+		"Dracula Color Scheme",
+		"Emmet",
+		"GitGutter",
+		"GitHubinator",
+		"Package Control",
+		"PackageResourceViewer",
+		"ProductiveSnippetsRuby",
+		"Rails Partial",
+		"RailsGoToSpec",
+		"Ruby on Rails snippets",
+		"Ruby Slim",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SqlBeautifier",
+		"SublimeLinter",
+		"SublimeLinter-contrib-reek",
+		"SublimeLinter-contrib-slim-lint",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"Terminal"
+	]
+}

@@ -1,0 +1,31 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "rubocop": {
+            "excludes": ["*/*.slim"],
+            "use_bundle_exec": false,
+        },
+        "ruby": {
+            "excludes": ["*/*.slim", "*/*.haml"],
+        }
+    },
+    "paths": {
+          "osx": ["~/.rbenv/shims"]
+      },
+      "show_panel_on_save": "view",
+    "styles": [
+        {
+            "scope": "region.orangish markup.warning.sublime_linter",
+        },
+        {
+            // The highlight style:
+            // - "none"
+            // - "fill", "outline",
+            // - "solid_underline", "squiggly_underline", "stippled_underline"
+            // The underline styles are replaced with outlines when there is
+            // whitespace in the problem region, because underlines aren't drawn
+            // on whitespace (ST issue #137).
+            "mark_style": "squiggly_underline",
+        }
+    ],
+}

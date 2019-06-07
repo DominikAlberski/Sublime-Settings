@@ -1,0 +1,43 @@
+<snippet>
+  <content><![CDATA[
+    class ${1:}$0 ::Filtering
+      def self.call(*args, &block)
+        new(*args, &block).call
+      end
+
+      def initialize(params, scope = nil)
+        self.scope = scope || yield
+        self.params = params
+      end
+
+      def call
+        @_call ||= apply_filters
+      end
+
+      private
+
+      attr_accessor :scope, :params
+
+      def append_scope(label)
+        selected = params[label.to_sym]
+        return unless selected
+
+        self.scope =
+          yield scope, selected
+      end
+
+      def apply_filters
+        scope
+      end
+    end
+  ]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>claf</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <scope>
+    source.ruby
+    source.ruby.rails
+  </scope>
+  <description> filter class object </description>
+</snippet>
