@@ -154,7 +154,7 @@
             "extensions": ["ini.dist", ".npmrc"]
         },
         {
-            "syntax": [
+            "selector": [
                 "ShellScript/Bash",
                 "ShellScript/Shell-Unix-Generic"
             ],
@@ -170,14 +170,14 @@
         {
             // Sublime recognizes .py files, but not if they don't have an extension,
             // just a shebang
-            "syntax": "Python/Python",
+            "selector": "Python/Python",
             "extensions": ["py3", "pyw"],
             "rules": [
                 {"interpreter": "python"}
             ]
         },
         {
-            "syntax": "JavaScript/JSON",
+            "selector": "JavaScript/JSON",
             "extensions": [".jshintrc", ".jscsrc", ".csslintrc", ".eslintrc", ".bowerrc", "geojson"]
         },
         {
@@ -185,7 +185,7 @@
             // We first use a rather reliable regex from GitHub
             // https://github.com/github/linguist/blob/master/lib/linguist/heuristics.rb#L69)
             // to apply syntax for Objective-C files
-            "syntax": "Objective-C/Objective-C",
+            "selector": "Objective-C/Objective-C",
             "match": "all",
             "rules": [
                 {"file_path": ".*\\.m$"},
@@ -194,7 +194,7 @@
         },
         {
             // Then use the % regex to detect Matlab files
-            "syntax": "Matlab/Matlab",
+            "selector": "Matlab/Matlab",
             "match": "all",
             "rules": [
                 {"file_path": ".*\\.m$"},
@@ -202,7 +202,7 @@
             ]
         },
         {
-            "syntax": "TypoScript/TypoScript",
+            "selector": "TypoScript/TypoScript",
             "rules": [
                 {"file_path": ".*(\\\\|/)ext_conf_template\\.txt$"},
                 {"file_path": ".*(\\\\|/)ext_typoscript_(setup|constants)\\.txt$"},

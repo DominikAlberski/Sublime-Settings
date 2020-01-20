@@ -5,10 +5,5 @@
   { "keys": ["super+shift+w"], "command": "close_other_tabs" },
   { "keys": ["super+shift+t"], "command": "reopen_last_file" },
 
-  { "keys": ["super+alt+shift+up"], "command": "new_pane"},
-  { "keys": ["super+alt+shift+down"], "command": "close_pane" },
-  { "keys": ["super+alt+shift+left"], "command": "move_to_neighboring_group"},
-  { "keys": ["super+alt+shift+right"], "command": "focus_neighboring_group"},
-
-  { "keys": ["super+k"], "command": "sql_beautifier" }
+  { "keys": ["super+alt+k"], "command": "sql_beautifier" }
 ]

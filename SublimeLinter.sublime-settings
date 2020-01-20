@@ -1,7 +1,9 @@
 // SublimeLinter Settings - User
 {
+    "debug": true,
     "linters": {
         "rubocop": {
+            "executable": "/Users/dominik/.rbenv/shims/rubocop",
             "excludes": ["*/*.slim"],
             "use_bundle_exec": false,
         },
@@ -25,7 +27,7 @@
             // The underline styles are replaced with outlines when there is
             // whitespace in the problem region, because underlines aren't drawn
             // on whitespace (ST issue #137).
-            "mark_style": "squiggly_underline",
+            "mark_style": "fill",
         }
     ],
 }
