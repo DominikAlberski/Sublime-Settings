@@ -18,6 +18,7 @@
 		"Emmet",
 		"GitGutter",
 		"GitHubinator",
+		"NeoVintageous",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
@@ -30,7 +31,6 @@
 		"Sass",
 		"SCSS",
 		"SideBarEnhancements",
-		"Six",
 		"SqlBeautifier",
 		"SublimeLinter",
 		"SublimeLinter-contrib-reek",
@@ -38,6 +38,7 @@
 		"SublimeLinter-rubocop",
 		"SublimeLinter-ruby",
 		"SublimeTmpl",
-		"Terminal"
+		"Terminal",
+		"Vue Syntax Highlight"
 	]
 }

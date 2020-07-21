@@ -1,6 +1,4 @@
 {
-	"font_face": "JetBrains Mono",
-	"font_size": 12,
 	"auto_complete": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
@@ -17,9 +15,12 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Six",
+		"Vintage",
+		"Vintageous"
 	],
 	"index_files": true,
+	"neovintageous_build_version": 11100,
 	"rulers":
 	[
 		80
@@ -29,5 +30,7 @@
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"vintageous_use_ctrl_keys": null,
+	"vintageous_use_super_keys": null
 }
