@@ -9,8 +9,8 @@
 	"copy_with_empty_selection": true,
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
-	"font_face": "JetBrainsMono",
-	"font_size": 14,
+	"font_face": "JetBrains Mono",
+	"font_size": 15,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
