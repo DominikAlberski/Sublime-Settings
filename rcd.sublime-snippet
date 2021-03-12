@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+# rubocop:disable $1
+# rubocop:enable $0
+]]></content>
+  <tabTrigger>rcd</tabTrigger>
+  <scope>source.ruby.rails</scope>
+</snippet>
