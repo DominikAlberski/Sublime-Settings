@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Better RSpec",
+		"Vuejs Complete Package"
 	],
 	"installed_packages":
 	[
@@ -25,6 +27,7 @@
 		"ProductiveSnippetsRuby",
 		"Rails Partial",
 		"RailsGoToSpec",
+		"RSpec Buddy",
 		"Ruby Block Converter",
 		"Ruby on Rails snippets",
 		"Ruby Slim",

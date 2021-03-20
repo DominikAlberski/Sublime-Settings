@@ -15,9 +15,11 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Better RSpec",
 		"Six",
 		"Vintage",
-		"Vintageous"
+		"Vintageous",
+		"Vuejs Complete Package"
 	],
 	"index_files": true,
 	"neovintageous_build_version": 11100,
