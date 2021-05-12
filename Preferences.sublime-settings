@@ -34,5 +34,5 @@
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": null,
-	"vintageous_use_super_keys": null
+	"vintageous_use_super_keys": false
 }
