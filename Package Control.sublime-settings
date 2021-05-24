@@ -2,8 +2,6 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Better RSpec",
-		"Vuejs Complete Package"
 	],
 	"installed_packages":
 	[
@@ -18,8 +16,10 @@
 		"DocBlockr",
 		"Dracula Color Scheme",
 		"Emmet",
+		"Gist",
 		"GitGutter",
 		"GitHubinator",
+		"Minitest Buddy",
 		"NeoVintageous",
 		"Origami",
 		"Package Control",
@@ -43,6 +43,7 @@
 		"SublimeTmpl",
 		"Terminal",
 		"Vue Syntax Highlight",
-		"Vuejs Complete Package"
-	]
+		"Vuejs Complete Package",
+		"yardgen",
+	],
 }

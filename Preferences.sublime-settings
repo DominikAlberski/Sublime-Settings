@@ -1,7 +1,9 @@
 {
 	"auto_complete": true,
+	"auto_complete_delay": 10,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_cycle": true,
+
 	"caret_extra_bottom": 3,
 	"caret_extra_top": 3,
 	"caret_style": "phase",
@@ -19,7 +21,6 @@
 		"Six",
 		"Vintage",
 		"Vintageous",
-		"Vuejs Complete Package"
 	],
 	"index_files": true,
 	"neovintageous_build_version": 11100,
@@ -34,5 +35,5 @@
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": null,
-	"vintageous_use_super_keys": false
+	"vintageous_use_super_keys": null,
 }

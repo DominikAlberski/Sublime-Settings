@@ -21,10 +21,10 @@
   { "keys": ["super+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
 
-  { "keys": ["super+k", "alt+shift+k"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
-  { "keys": ["super+k", "alt+shift+l"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
-  { "keys": ["super+k", "alt+shift+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
-  { "keys": ["super+k", "alt+shift+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+  { "keys": ["super+k", "super+shift+k"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "super+shift+l"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+  { "keys": ["super+k", "super+shift+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+  { "keys": ["super+k", "super+shift+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
 
   { "keys": ["super+k", "alt+k"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "alt+l"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
@@ -40,10 +40,10 @@
   // You can also add  "give_focus": true to automatically focus on the new pane as follows:
   // { "keys": [], "command": "create_pane", "args": {"direction": "", "give_focus": true} }
 
-  { "keys": ["super+k", "super+shift+k"], "command": "destroy_pane", "args": {"direction": "up"} },
-  { "keys": ["super+k", "super+shift+l"], "command": "destroy_pane", "args": {"direction": "right"} },
-  { "keys": ["super+k", "super+shift+j"], "command": "destroy_pane", "args": {"direction": "down"} },
-  { "keys": ["super+k", "super+shift+h"], "command": "destroy_pane", "args": {"direction": "left"} },
+  { "keys": ["super+k", "ctrl+k"], "command": "destroy_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "ctrl+l"], "command": "destroy_pane", "args": {"direction": "right"} },
+  { "keys": ["super+k", "ctrl+j"], "command": "destroy_pane", "args": {"direction": "down"} },
+  { "keys": ["super+k", "ctrl+h"], "command": "destroy_pane", "args": {"direction": "left"} },
   // You can also destroy the current pane by binding the following command:
   // { "keys": [], "command": "destroy_pane", "args": {"direction": "self"} },
 
@@ -54,7 +54,9 @@
 
   { "keys": ["super+k", "super+f"], "command": "zoom_pane", "args": {"fraction": 0.9} },
   { "keys": ["super+k", "super+shift+f"], "command": "unzoom_pane", "args": {} },
-
+  // End of Origami and tab/window operations
   { "keys": ["super+k", "super+shift+u"], "command": "lower_case" },
+  // Emmet
+  { "keys": ["ctrl+."], "command": "emmet_enter_abbreviation" },
 ]
 
