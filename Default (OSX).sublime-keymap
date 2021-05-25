@@ -8,49 +8,45 @@
   { "keys": ["super+alt+k"], "command": "sql_beautifier" },
 
   // orginal bindings to
-  { "keys": ["super+k", "super+k"], "command": "new_pane" },
-  { "keys": ["super+k", "super+shift+k"], "command": "new_pane", "args": {"move": false} },
-  { "keys": ["super+k", "super+j"], "command": "close_pane" },
-  { "keys": ["super+k", "super+h"], "command": "focus_neighboring_group", "args": {"forward": false} },
-  { "keys": ["super+k", "super+l"], "command": "focus_neighboring_group" },
-  { "keys": ["super+k", "super+shift+h"], "command": "move_to_neighboring_group", "args": {"forward": false} },
-  { "keys": ["super+k", "super+shift+l"], "command": "move_to_neighboring_group" },
+  // { "keys": ["super+k", "super+k"], "command": "new_pane" },
+  // { "keys": ["super+k", "super+shift+k"], "command": "new_pane", "args": {"move": false} },
+  // { "keys": ["super+k", "super+j"], "command": "close_pane" },
+  // { "keys": ["super+k", "super+h"], "command": "focus_neighboring_group", "args": {"forward": false} },
+  // { "keys": ["super+k", "super+l"], "command": "focus_neighboring_group" },
+  // { "keys": ["super+k", "super+shift+h"], "command": "move_to_neighboring_group", "args": {"forward": false} },
+  // { "keys": ["super+k", "super+shift+l"], "command": "move_to_neighboring_group" },
 
   // origami bindings to vim hjkl
-  { "keys": ["super+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} }, { "keys": ["super+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
+  // travel:
+  { "keys": ["super+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
+  { "keys": ["super+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
   { "keys": ["super+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "h"], "command": "travel_to_pane", "args": {"direction": "left"} },
-
+  // move file to:
   { "keys": ["super+k", "super+shift+k"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "super+shift+l"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
   { "keys": ["super+k", "super+shift+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "super+shift+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
-
+  // copy file to:
   { "keys": ["super+k", "alt+k"], "command": "clone_file_to_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "alt+l"], "command": "clone_file_to_pane", "args": {"direction": "right"} },
   { "keys": ["super+k", "alt+j"], "command": "clone_file_to_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "alt+h"], "command": "clone_file_to_pane", "args": {"direction": "left"} },
-  // You can also create the pane automatically with the following command (insert empty parameters):
-  // { "keys": [], "command": "create_pane_with_cloned_file", "args": {"direction": ""} }
-
+  // create empty:
   { "keys": ["super+k", "super+k"], "command": "create_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "super+l"], "command": "create_pane", "args": {"direction": "right"} },
   { "keys": ["super+k", "super+j"], "command": "create_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "super+h"], "command": "create_pane", "args": {"direction": "left"} },
-  // You can also add  "give_focus": true to automatically focus on the new pane as follows:
-  // { "keys": [], "command": "create_pane", "args": {"direction": "", "give_focus": true} }
-
+  // destroy pane:
   { "keys": ["super+k", "ctrl+k"], "command": "destroy_pane", "args": {"direction": "up"} },
   { "keys": ["super+k", "ctrl+l"], "command": "destroy_pane", "args": {"direction": "right"} },
   { "keys": ["super+k", "ctrl+j"], "command": "destroy_pane", "args": {"direction": "down"} },
   { "keys": ["super+k", "ctrl+h"], "command": "destroy_pane", "args": {"direction": "left"} },
-  // You can also destroy the current pane by binding the following command:
-  // { "keys": [], "command": "destroy_pane", "args": {"direction": "self"} },
 
-  { "keys": ["super+k", "super+alt+k"], "command": "create_pane_with_file", "args": {"direction": "up"} },
-  { "keys": ["super+k", "super+alt+l"], "command": "create_pane_with_file", "args": {"direction": "right"} },
-  { "keys": ["super+k", "super+alt+j"], "command": "create_pane_with_file", "args": {"direction": "down"} },
-  { "keys": ["super+k", "super+alt+h"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+  // { "keys": ["super+k", "super+alt+k"], "command": "create_pane_with_file", "args": {"direction": "up"} },
+  // { "keys": ["super+k", "super+alt+l"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+  // { "keys": ["super+k", "super+alt+j"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+  // { "keys": ["super+k", "super+alt+h"], "command": "create_pane_with_file", "args": {"direction": "left"} },
 
   { "keys": ["super+k", "super+f"], "command": "zoom_pane", "args": {"fraction": 0.9} },
   { "keys": ["super+k", "super+shift+f"], "command": "unzoom_pane", "args": {} },
