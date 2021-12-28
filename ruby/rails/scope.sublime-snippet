@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+class ${2}::${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}}
+  def self.call(*args)
+    new(*args).call
+  end
+
+  def call
+    parent${5}
+  end
+
+  delegate :parent, to: :class
+
+  ${3:private}
+
+  def sql
+    ${4}
+  end
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cls</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rails</scope>
+</snippet>

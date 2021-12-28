@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+class ${1:${TM_FILENAME/(?:\A|_)([A-Za-z0-9]+)(?:\.rb)?/(?2::\u$1)/g}} < Dry::Matcher
+  def self.call(value, &block)
+    new(value).call(&block)
+  end
+
+  def initialize(value)
+    self.value = value
+
+    super(
+      ${2:match}: defined_match("value"),
+    )
+  end
+
+  def defined_match(expected)
+    Dry::Matcher::Case.new(
+      match: lambda do |value|
+        ${3}
+      end
+    )
+  end
+
+  def call
+    super(value)
+  end
+
+  private
+
+  attr_accessor :value
+end
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>clam</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rails</scope>
+</snippet>

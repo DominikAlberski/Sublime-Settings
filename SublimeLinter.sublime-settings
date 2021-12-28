@@ -1,14 +1,23 @@
 // SublimeLinter Settings - User
 {
-    "debug": true,
+    "debug": false,
     "linters": {
         "rubocop": {
             "executable": "/Users/dominik/.rbenv/shims/rubocop",
             "excludes": ["*/*.slim"],
+            // "disable": null,
             "use_bundle_exec": false,
         },
         "ruby": {
             "excludes": ["*/*.slim", "*/*.haml"],
+        },
+        "standard": {
+            "executable": "/Users/dominik/.rbenv/shims/standard",
+            // "disable": null,
+            // "prefer_standard": true
+        },
+        "reek": {
+            "executable": "/Users/dominik/.rbenv/shims/reek",
         }
     },
     "paths": {

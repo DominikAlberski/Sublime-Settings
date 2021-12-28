@@ -12,12 +12,13 @@
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"font_face": "JetBrains Mono",
-	"font_size": 15,
+	"font_size": 16,
 	"highlight_line": false,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Better RSpec",
+		"SimpleCov",
 		"Six",
 		"Vintage",
 		"Vintageous",
@@ -36,4 +37,18 @@
 	"trim_trailing_white_space_on_save": true,
 	"vintageous_use_ctrl_keys": null,
 	"vintageous_use_super_keys": null,
+
+	// bracket highlighter recommended settings disable sublime default highlighting
+
+	"match_brackets": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_brackets_braces": false,
+	"match_brackets_angle": false,
+	"match_tags": false,
+
+	// linter settings
+  "SublimeLinter.linters.rubocop.disable": null,
+  "SublimeLinter.linters.standardrb.disable": null,
+  "SublimeLinter.linters.standardrb.prefer_standard": true,
 }

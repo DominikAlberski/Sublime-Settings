@@ -3,7 +3,7 @@
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger>let</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.ruby.rails</scope>
+    <scope>source.ruby.rails, source.ruby.rspec</scope>
     <!-- Optional: Description to show in the menu -->
     <description>let() { }</description>
 </snippet>
